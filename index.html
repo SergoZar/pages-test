@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv='Content-Language' content='ua'>
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+	<meta name='viewport' content='width = device-width,height = device-height, initial-scale = 1'>
+	
+</head>
+<body>
+
+<script>
+
+var currentURL = window.location.href;
+var queryString = window.location.search;
+var searchParams = new URLSearchParams(queryString);
+var paramValue = searchParams.get('a');
+console.log(paramValue);
+
+</script>
+</body>
+</html>
